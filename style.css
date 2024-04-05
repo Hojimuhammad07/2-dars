@@ -1,0 +1,53 @@
+#parent {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+    border: 3px dashed green;
+    background: url();
+  }
+  #inp {
+    max-width: 700px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    box-shadow: 8px 8px 8px rgb(0, 255, 0);
+  }
+  #inp:hover{
+  box-shadow: 8px 8px 8px gold;
+ 
+  
+}
+
+h1{
+max-width: 320px;
+  text-align: center;
+  font-size: 30px;
+}
+
+h3{
+max-width: 320px;
+  text-align: center;
+  font-size: 30px;
+}
+
+span{
+  margin-left: 25px;
+  font-size: 20px;
+}
+.start{
+  width: 60px;
+  height: 40px;
+  background-color: rgb(255, 234, 0);
+  color: rgb(158, 0, 0);
+}
+.start:hover{
+  width: 60px;
+  height: 40px;
+  background-color: gold;
+  color: red;
+  transition: all 0.7s linear;
+}
+#elem{
+  max-width: 300px;
+  margin-left: 10px;
+}
